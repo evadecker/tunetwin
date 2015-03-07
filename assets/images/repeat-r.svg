@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="102px" height="162px" viewBox="0 0 102 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>repeat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home" sketch:type="MSArtboardGroup" transform="translate(-494.000000, -1022.000000)">
+            <rect id="Rectangle-22" fill="#F6F6F6" sketch:type="MSShapeGroup" x="289" y="847" width="525" height="525" rx="2"></rect>
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(494.000000, 1022.000000)" fill="#DDDDDD">
+                <g id="Repeat-Sign" sketch:type="MSShapeGroup">
+                    <circle id="Oval-26" cx="7" cy="61" r="7"></circle>
+                    <circle id="Oval-27" cx="7" cy="101" r="7"></circle>
+                    <path d="M39,156.073171 L39,162 L63,162 L63,156.073171 L63,5.92682927 L63,0 L39,0 L39,5.92682927 L39,156.073171 Z" id="Line-7"></path>
+                    <path d="M25,157.898734 L25,162 L29,162 L29,157.898734 L29,4.10126582 L29,0 L25,0 L25,4.10126582 L25,157.898734 Z" id="Line-8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

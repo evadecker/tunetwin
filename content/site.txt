@@ -1,0 +1,17 @@
+Title: Tunetwin
+
+----
+
+Author: Kyle Decker
+
+----
+
+Description: Tunetwin displays music that sounds like other music.
+
+----
+
+Keywords: music, history, borrowing, plagiarism, 
+
+----
+
+Copyright: © (date: Year) (link: http://kyledecker.me text: Kyle Decker)

@@ -1,0 +1,36 @@
+#main {
+	.animate {
+		animation-duration: 0.5s;
+		animation-fill-mode: both;
+		transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	}
+	&.is-exiting .animate { animation-direction: alternate-reverse; }
+}
+
+.fadeIn { animation-name: fadeIn; }
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.fadeInUp { animation-name: fadeInUp; }
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.slideInRight { animation-name: slideInRight; }
+@keyframes slideInRight {
+	0% {
+		transform: translate3d(100%, 0, 0);
+	}
+	100% {
+		transform: translate3d(0, 0, 0);
+	}
+}
