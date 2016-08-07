@@ -1,4 +1,10 @@
-;(function ($) {
+$("#ham").on('click', function(){
+	console.log('Clicked');
+	$("#sidebar").toggleClass("isOpen");
+	$("#content").toggleClass("isOpen");
+});
+
+(function ($) {
 	'use strict';
 	var $body	= $('html, body'),
 	content = $('#main').smoothState({

@@ -6,14 +6,12 @@ password: >
   $2a$10$9JkAMnWW7e3B72C4u8maUur/uwGNt53znuUc7PBT5BYOMzR/OnmKu
 language: en
 role: admin
-token: a76249a2682f27156a8d31a306a077cd0e72ba4e
+token: 20a8759b0d262d6e134c7060124825204bdb9800
 history:
-  - twins
   - >
-    twins/the-star-wars-theme-sounds-like-king-s-row/tune-1
+    twins/daft-punk-sounds-like-edwin-birdsong
+  - twins/mario-kart-sounds-like-percy-faith
+  - learn
+  - twins/vanilla-ice-sounds-like-queen
   - >
-    twins/the-star-wars-theme-sounds-like-king-s-row
-  - >
-    twins/the-star-wars-theme-sounds-like-king-s-row/tune-2
-  - >
-    twins/boney-m-sounds-like-nighttrain/tune-1
+    twins/charlotte-gainsbourg-sounds-like-super-mario-64

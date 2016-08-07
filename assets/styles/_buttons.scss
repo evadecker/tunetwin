@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn {
+	background: $hl;
+	font-family: $font-sans;
+	color: #fff;
+	border: 1px solid $hl;
+	padding: 0.6em 1em;
+	font-size: 15px;
+	line-height: 14px;
+	border-radius: 4px;
+}
+
+.toggle-nav {
+	font-family: $font-sans;
+	font-size: 15px;
+	line-height: 14px;
+	margin-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+	a {
+		float: left;
+		color: #777;
+		padding: 0.6em 1em;
+		width: 50%;
+		text-align: center;
+		&.active {
+			background: #fff;
+			border-radius: 4px; // 1px less than .toggle-nav
+			box-shadow: 0 0 0 1px #ddd;
+			pointer-events: none;
+			cursor: default;
+		}
+	}
+}
+
+.btn, .toggle-nav {
+	.fa {
+		position: relative;
+		left: -3px;
+	}
+}

@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #WRAPPERS
+\*------------------------------------*/
+
+.main {
+	position: relative;
+	padding-top: $header;
+}
+
+.main-with-sidebar {
+	height: 100%;
+}
+
+.mainbar {
+	position: relative;
+	width: calc(100% - #{$sidebar}); // Escape Sass variable for calc()
+}
+
+.wrapper {
+	max-width: 1130px;
+	padding: 0 1em;
+	margin: 0 auto;
+}

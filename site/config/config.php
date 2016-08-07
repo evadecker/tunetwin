@@ -27,8 +27,24 @@ By default you don't have to configure anything to
 make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
+c::set('smartypants', true);
 */
 
-c::set('smartypants', true);
+
 c::set('markdown.extra', true);
+c::set('home', 'twins');
 c::set('debug', true);
+
+/*
+
+---------------------------------------
+Relative Date Configuration
+---------------------------------------
+
+https://github.com/distantnative/kirby-relativedate
+
+*/
+
+c::set('relativedate.threshold', 604800);
+c::set('relativedate.length', 1);
+c::set('relativedate.fuzzy', true);

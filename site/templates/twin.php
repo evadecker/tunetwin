@@ -19,7 +19,6 @@
 					</div>
 				<?php endforeach ?>
 			</div>
-			<div class="twin-title"><h1><?= $page->title()->html() ?></h1></div>
 			<?php foreach($tunes as $tune): ?>
 				<div class="tune">
 					<div class="tune-info">
@@ -42,14 +41,16 @@
 			<?php endforeach ?>
 		</div>
 
-		<?php if(!$page->text()->empty()): ?>
-			<article class="twin-text">
-				<?= $page->text()->kirbytext() ?>
-			</article>
-		<?php endif ?>
-
-		<div class="comments">
-			<?php snippet('disqus', array('disqus_shortname' => 'tunetwin')) ?>
+		<div class="wrapper">
+			<h1 class="page-title"><?= $page->title()->html() ?></h1>
+			<?php if(!$page->text()->empty()): ?>
+				<article class="twin-text">
+					<?= $page->text()->kirbytext() ?>
+				</article>
+			<?php endif ?>
+			<div class="comments">
+				<?php snippet('disqus', array('disqus_shortname' => 'tunetwin')) ?>
+			</div>
 		</div>
 	</div>
 	<aside class="sidebar">

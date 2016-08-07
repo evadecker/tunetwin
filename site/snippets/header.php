@@ -20,6 +20,7 @@
 
 	<link rel="icon" href="favicon.ico" />
 	
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<?= css('assets/styles/main.css') ?>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -34,6 +35,8 @@
 		<a class="logo" href="<?php echo url() ?>">
 			<?= $site->title(); ?>
 		</a>
-		<?php snippet('menu') ?>
+		<nav class="menu" role="navigation">
+		    <?php foreach($pages->visible() as $p): ?><a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->slug() ?></a><?php endforeach ?>
+		</nav>
 		<?php snippet('search') ?>
 	</header>

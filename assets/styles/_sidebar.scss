@@ -1,0 +1,59 @@
+/*------------------------------------*\
+    #SIDEBAR
+\*------------------------------------*/
+
+.sidebar {
+	background: #fafafa;
+	font-family: $font-sans;
+	position: fixed;
+	right: 0;
+	top: $header;
+	bottom: 0;
+	box-shadow: -1px 0 0 rgba(0,0,0,0.08);
+	width: $sidebar;
+}
+
+.sidebar-block {
+	margin: 1em;
+	h5 .fa {
+		position: relative;
+		bottom: -1px;
+	}
+}
+
+.sidebar-stats {
+	border-top: 1px solid $border;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+
+.sidebar-stat {
+	float: left;
+	width: 50%;
+	padding: 0.6em 1em;
+	&:first-child { border-right: 1px solid $border; }
+}
+
+.stat-number {
+	font-size: 1.1em;
+	line-height: 1;
+	margin-top: -6px;
+}
+
+.tag {
+	font-size: 0.7em;
+	border: 1px solid $border;
+	padding: 4px 8px;
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	border-radius: 2px;
+	color: #777;
+	text-transform: capitalize;
+	&:hover {
+		background: #fff;
+		border-color: darken($border, 7);
+	}
+}

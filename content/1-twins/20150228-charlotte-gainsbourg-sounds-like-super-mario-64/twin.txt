@@ -2,7 +2,7 @@ Title: Charlotte Gainsbourg sounds like Super Mario 64
 
 ----
 
-Text: The melodic line in the piano is nearly identical.
+Text: The title track off Charlotte Gainsbourg's album *5:55* features a piano accompaniment that is nearly identical to the "Dire, Dire Docks" theme from *Super Mario 64*.
 
 ----
 
@@ -11,3 +11,15 @@ Tags: gaming,nintendo,piano
 ----
 
 Date: 2015-02-28
+
+----
+
+Excerpt: The title track off Charlotte Gainsbourg's album *5:55* features a piano accompaniment that is nearly identical to the "Dire, Dire Docks" theme from *Super Mario 64*.
+
+----
+
+Tune-1: 
+
+----
+
+Tune-2: 

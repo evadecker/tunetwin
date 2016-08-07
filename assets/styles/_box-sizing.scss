@@ -1,0 +1,7 @@
+/*------------------------------------*\
+    #BOX-SIZING
+\*------------------------------------*/
+
+/* Box-sizing best practice, as of August 2014 (thx Chris Coyier & Paul Irish!) */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }

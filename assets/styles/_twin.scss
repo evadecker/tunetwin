@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    #TWIN
+\*------------------------------------*/
+
+.twin {
+	background: #fff;
+	margin-bottom: 2em;
+	font-family: $font-sans;
+	border-bottom: 1px solid $border;
+	position: relative;
+	.tune {
+		width: 50%;
+		float: left;
+		&:first-child {
+			.player { float: left; }
+		}
+		&:last-child {
+			text-align: right;
+			.player { float: right; }
+		}
+	}
+}
+
+.tune-info {
+	padding: 1em;
+}
+
+.tune-title {
+	font-family: $font-sans;
+	font-size: 1.25em;
+	margin-bottom: 2px;
+}
+
+.tune-controls {
+	border: 1px solid $border;
+	background: white;
+	color: $txt-light;
+	font-size: 36px;
+	line-height: 60px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.tune-details {
+	font-size: 0.75em;
+	list-style-type: none;
+	li {
+		display: inline-block;
+	}
+}
+
+.twin-text {
+	margin: 2em 1em;
+}
+
+.comments {
+	padding: 0 1em 2em 1em;
+}
+
+#disqus_thread {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twin-views { width: 40%; }
+.twin-postdate { width: 60%; }

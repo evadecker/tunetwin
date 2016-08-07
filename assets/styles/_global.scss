@@ -1,0 +1,63 @@
+/*------------------------------------*\
+    #GLOBAL
+\*------------------------------------*/
+
+// Variables
+
+$txt:		#333;
+$txt-light:	#999;
+$bg:		#F8FAFC;
+$hl:		#E24A31; // Old color: #D99966;
+$hl-light:	lighten($hl, 35);
+$hl-text:	#8B5F3C;
+$border:	#DDDDDD;
+$header:	52px;  // Header height
+$sidebar:   300px; // Sidebar width
+
+// Fonts 
+
+$font-sans:  "franklin-gothic-urw", Helvetica, sans-serif;
+$font-serif: "livory", Georgia, serif;
+
+/* Basic Config */
+
+html, body { height: 100%; }
+
+body {
+	background: #fff;
+	font-family: $font-serif;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: $txt;
+	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+::selection      { background: $hl; color: white; }
+::-moz-selection { background: $hl; color: white; }
+
+a {
+	color: $hl;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+/* Global Classes */
+
+.hidden { display: none; }
+.right  { float:   right; }
+.left   { float:   left; }
+
+.cf:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.fa {
+	font-size: 14px; // Crisp Font Awesome icons
+}

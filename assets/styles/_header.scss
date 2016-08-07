@@ -1,0 +1,82 @@
+/*------------------------------------*\
+    #HEADER
+\*------------------------------------*/
+
+.header {
+	background: #fff;
+	background: rgba(255,255,255,0.97);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+	font-family: $font-sans;
+	line-height: $header;
+	height: $header;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+.logo {
+	background: url('../images/logo.svg') no-repeat center;
+	float: left;
+	text-indent: -9999px;
+	width: 143px;
+	margin: 0 1em;
+}
+
+.control-bar {
+	box-shadow: 0 1px 0 $border;
+	height: 40px;
+	line-height: 40px;
+	font-size: 0.8em;
+}
+
+/*------------------------------------*\
+    #NAVIGATION
+\*------------------------------------*/
+
+.menu {
+	float: left;
+	font-size: 18px;
+	a {
+		color: #999;
+		text-transform: capitalize;
+		float: left;
+		position: relative;
+		padding: 0 0.5em;
+		margin-left: 0.5em;
+		&.active { color: $txt; }
+	}
+}
+
+// Search wrapper
+.search {
+	width: $sidebar;
+	height: $header;
+	font-size: 16px;
+	float: right;
+}
+
+// Search input
+#search {
+	background: url(../images/search.svg) no-repeat 15px center;
+	border: 1px solid $border;
+	border-radius: $header;
+	font-family: inherit;
+	font-size: inherit;
+	width: $sidebar - 75px;
+	height: $header - 48px;
+	padding: 12px 20px 12px 45px;
+	box-shadow: 0 0 0 20px transparent, inset 0 1px 1px lighten($border, 7);
+	transition: all 0s;
+	outline: none;
+	&:hover {
+		border-color: darken($border, 14);
+	}
+	&:focus {
+		color: $txt;
+		border-color: $hl;
+		box-shadow: 0 0 0 5px $hl-light, inset 0 1px 1px lighten($border, 7);
+		transition: all 0.35s cubic-bezier(0.7, 0, 0.3, 1);
+	}
+}

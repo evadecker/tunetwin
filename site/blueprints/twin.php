@@ -18,6 +18,9 @@ fields:
   title:
     label: Title
     type:  text
+  excerpt:
+    label: Excerpt
+    type:  textarea
   text:
     label: Text
     type:  textarea
@@ -29,3 +32,11 @@ fields:
     label: Date
     type:  date
     format: MM/DD/YYYY
+  tune-1:
+    label: Tune 1
+    type:  text
+    width: 1/2
+  tune-2:
+    label: Tune 2
+    type:  text
+    width: 1/2

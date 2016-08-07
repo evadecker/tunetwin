@@ -1,0 +1,76 @@
+/*------------------------------------*\
+    #ARTICLE
+\*------------------------------------*/
+
+article {
+	word-wrap: break-word;
+	a {
+		color: $txt;
+		text-decoration: underline;
+	}
+	p, ul, ol, h1, h2, h3, figure {
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+		&.full {
+			max-width: none;
+		}
+	}
+	blockquote {
+		font-style: italic;
+		font-size: 1.6em;
+		text-align: center;
+		line-height: 1.3em;
+		p { max-width: none; }
+	}
+	h2 { margin-top: 60px; }
+
+	figure {
+		img { width: 100%; }
+		&.pull-left, &.pull-right {
+			padding-top: 8px; // Align with text
+			width: 30%;
+		}
+		&.pull-left {
+			float: left;
+			margin-right: 30px;
+		}
+		&.pull-right {
+			float: right;
+			margin-left: 30px;
+		}
+	}
+	figcaption {
+		font-family: $font-sans;
+		color: $txt-light;
+		font-size: 0.7em;
+		margin-top: 1em;
+	}
+	//ul, ol { padding-left: 0px; }
+	ul {
+		list-style-type: disc;
+		ul {
+			list-style-type: circle;
+			margin-bottom: 0;
+		}
+	}
+	ol ol { margin-bottom: 0; }
+	hr {
+		border-bottom: 1px solid $border;
+		margin: 4em -4em;
+	}
+	> :last-child { margin-bottom: 0; }
+}
+
+.footnotes {
+	ol, p {
+		margin-bottom: 0;
+	}
+}
+
+.footnote-backref {
+	//text-decoration: none;
+	position: relative;
+	top: 2px;
+}
